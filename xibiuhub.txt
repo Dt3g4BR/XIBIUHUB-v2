@@ -3,188 +3,293 @@
 
 -- Instances:
 
-local Menu = Instance.new("ScreenGui")
-local Menu_2 = Instance.new("Frame")
-local title = Instance.new("TextLabel")
+local XIBIUHUB = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local scripts = Instance.new("Frame")
+local animeadventures = Instance.new("Frame")
+local animeadventures_2 = Instance.new("TextLabel")
 local execute = Instance.new("TextButton")
-local skullhub = Instance.new("TextLabel")
-local bloxfruits = Instance.new("TextLabel")
+local scripts_2 = Instance.new("TextLabel")
+local bloxfruits = Instance.new("Frame")
+local bloxfruits_2 = Instance.new("TextLabel")
 local execute_2 = Instance.new("TextButton")
-local fisch = Instance.new("TextLabel")
+local brookhaven = Instance.new("Frame")
+local Brookhaven = Instance.new("TextLabel")
 local execute_3 = Instance.new("TextButton")
-local biel = Instance.new("TextLabel")
-local INFINITEYELD = Instance.new("TextLabel")
-local execute_4 = Instance.new("TextButton")
+local fisch = Instance.new("Frame")
 local fisch_2 = Instance.new("TextLabel")
+local execute_4 = Instance.new("TextButton")
+local fisch_3 = Instance.new("Frame")
+local infiniteyield = Instance.new("TextLabel")
 local execute_5 = Instance.new("TextButton")
+local xibiuhub = Instance.new("TextLabel")
+local Profile = Instance.new("ImageLabel")
+local ProfileName = Instance.new("TextLabel")
+local GameTime = Instance.new("TextLabel")
+local credits = Instance.new("TextLabel")
 
 --Properties:
 
-Menu.Name = "Menu"
-Menu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Menu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+XIBIUHUB.Name = "XIBIUHUB"
+XIBIUHUB.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+XIBIUHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Menu_2.Name = "Menu"
-Menu_2.Parent = Menu
-Menu_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Menu_2.BackgroundTransparency = 0.100
-Menu_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Menu_2.BorderSizePixel = 0
-Menu_2.Position = UDim2.new(0.422786057, 0, 0.0766331628, 0)
-Menu_2.Size = UDim2.new(0, 640, 0, 686)
+Frame.Parent = XIBIUHUB
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.261037856, 0, 0.261654884, 0)
+Frame.Size = UDim2.new(0, 637, 0, 378)
 
-title.Name = "title"
-title.Parent = Menu_2
-title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-title.BorderSizePixel = 0
-title.Size = UDim2.new(0, 639, 0, 50)
-title.Font = Enum.Font.Unknown
-title.Text = "XIBIUZINHO HUB V2"
-title.TextColor3 = Color3.fromRGB(255, 0, 4)
-title.TextSize = 33.000
+scripts.Name = "scripts"
+scripts.Parent = Frame
+scripts.BackgroundColor3 = Color3.fromRGB(0, 1, 36)
+scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.22605966, 0, 0.111111112, 0)
+scripts.Size = UDim2.new(0, 471, 0, 304)
+
+animeadventures.Name = "anime adventures"
+animeadventures.Parent = scripts
+animeadventures.BackgroundColor3 = Color3.fromRGB(0, 1, 76)
+animeadventures.BorderColor3 = Color3.fromRGB(0, 0, 0)
+animeadventures.BorderSizePixel = 0
+animeadventures.Position = UDim2.new(0.0849256888, 0, 0.160535112, 0)
+animeadventures.Size = UDim2.new(0, 392, 0, 40)
+
+animeadventures_2.Name = "anime adventures"
+animeadventures_2.Parent = animeadventures
+animeadventures_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+animeadventures_2.BackgroundTransparency = 1.000
+animeadventures_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+animeadventures_2.BorderSizePixel = 0
+animeadventures_2.Position = UDim2.new(0.076530613, 0, 0, 0)
+animeadventures_2.Size = UDim2.new(0, 114, 0, 40)
+animeadventures_2.Font = Enum.Font.ArialBold
+animeadventures_2.Text = "Anime Adventures"
+animeadventures_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+animeadventures_2.TextSize = 19.000
 
 execute.Name = "execute"
-execute.Parent = Menu_2
-execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute.Parent = animeadventures
+execute.BackgroundColor3 = Color3.fromRGB(0, 11, 159)
 execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute.BorderSizePixel = 0
-execute.Position = UDim2.new(0.210780472, 0, 0.091718711, 0)
-execute.Size = UDim2.new(0, 107, 0, 50)
-execute.Font = Enum.Font.SourceSansBold
-execute.Text = "EXECUTE"
-execute.TextColor3 = Color3.fromRGB(255, 0, 25)
-execute.TextSize = 22.000
+execute.Position = UDim2.new(0.551020384, 0, 0.075000003, 0)
+execute.Size = UDim2.new(0, 163, 0, 34)
+execute.Font = Enum.Font.ArialBold
+execute.Text = "Execute"
+execute.TextColor3 = Color3.fromRGB(255, 0, 4)
+execute.TextSize = 21.000
 
-skullhub.Name = "skullhub"
-skullhub.Parent = Menu_2
-skullhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-skullhub.BackgroundTransparency = 1.000
-skullhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
-skullhub.BorderSizePixel = 0
-skullhub.Position = UDim2.new(0, 0, 0.0816562399, 0)
-skullhub.Size = UDim2.new(0, 121, 0, 64)
-skullhub.Font = Enum.Font.Nunito
-skullhub.Text = "SKULL HUB"
-skullhub.TextColor3 = Color3.fromRGB(255, 0, 4)
-skullhub.TextSize = 25.000
+scripts_2.Name = "scripts"
+scripts_2.Parent = scripts
+scripts_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts_2.BackgroundTransparency = 1.000
+scripts_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts_2.BorderSizePixel = 0
+scripts_2.Position = UDim2.new(-0.0615711249, 0, 0, 0)
+scripts_2.Size = UDim2.new(0, 194, 0, 48)
+scripts_2.Font = Enum.Font.Unknown
+scripts_2.Text = "Scripts"
+scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+scripts_2.TextSize = 26.000
 
-bloxfruits.Name = "bloxfruits"
-bloxfruits.Parent = Menu_2
-bloxfruits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-bloxfruits.BackgroundTransparency = 1.000
+bloxfruits.Name = "blox fruits"
+bloxfruits.Parent = scripts
+bloxfruits.BackgroundColor3 = Color3.fromRGB(0, 1, 76)
 bloxfruits.BorderColor3 = Color3.fromRGB(0, 0, 0)
 bloxfruits.BorderSizePixel = 0
-bloxfruits.Position = UDim2.new(0, 0, 0.183567077, 0)
-bloxfruits.Size = UDim2.new(0, 121, 0, 64)
-bloxfruits.Font = Enum.Font.Nunito
-bloxfruits.Text = "BLOX FRUITS"
-bloxfruits.TextColor3 = Color3.fromRGB(255, 0, 4)
-bloxfruits.TextSize = 25.000
+bloxfruits.Position = UDim2.new(0.0849256888, 0, 0.321363389, 0)
+bloxfruits.Size = UDim2.new(0, 392, 0, 40)
+
+bloxfruits_2.Name = "blox fruits"
+bloxfruits_2.Parent = bloxfruits
+bloxfruits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bloxfruits_2.BackgroundTransparency = 1.000
+bloxfruits_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruits_2.BorderSizePixel = 0
+bloxfruits_2.Size = UDim2.new(0, 114, 0, 40)
+bloxfruits_2.Font = Enum.Font.ArialBold
+bloxfruits_2.Text = "Blox Fruits"
+bloxfruits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxfruits_2.TextSize = 19.000
 
 execute_2.Name = "execute"
-execute_2.Parent = Menu_2
-execute_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute_2.Parent = bloxfruits
+execute_2.BackgroundColor3 = Color3.fromRGB(0, 11, 159)
 execute_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute_2.BorderSizePixel = 0
-execute_2.Position = UDim2.new(0.210780472, 0, 0.193629533, 0)
-execute_2.Size = UDim2.new(0, 107, 0, 50)
-execute_2.Font = Enum.Font.SourceSansBold
-execute_2.Text = "EXECUTE"
-execute_2.TextColor3 = Color3.fromRGB(255, 0, 25)
-execute_2.TextSize = 22.000
+execute_2.Position = UDim2.new(0.551020384, 0, 0.075000003, 0)
+execute_2.Size = UDim2.new(0, 163, 0, 34)
+execute_2.Font = Enum.Font.ArialBold
+execute_2.Text = "Execute"
+execute_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+execute_2.TextSize = 21.000
 
-fisch.Name = "fisch"
-fisch.Parent = Menu_2
-fisch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fisch.BackgroundTransparency = 1.000
-fisch.BorderColor3 = Color3.fromRGB(0, 0, 0)
-fisch.BorderSizePixel = 0
-fisch.Position = UDim2.new(0, 0, 0.285477906, 0)
-fisch.Size = UDim2.new(0, 121, 0, 64)
-fisch.Font = Enum.Font.Nunito
-fisch.Text = "FISCH"
-fisch.TextColor3 = Color3.fromRGB(255, 0, 4)
-fisch.TextSize = 25.000
+brookhaven.Name = "brookhaven"
+brookhaven.Parent = scripts
+brookhaven.BackgroundColor3 = Color3.fromRGB(0, 1, 76)
+brookhaven.BorderColor3 = Color3.fromRGB(0, 0, 0)
+brookhaven.BorderSizePixel = 0
+brookhaven.Position = UDim2.new(0.0849256888, 0, 0.482289493, 0)
+brookhaven.Size = UDim2.new(0, 392, 0, 40)
+
+Brookhaven.Name = "Brookhaven"
+Brookhaven.Parent = brookhaven
+Brookhaven.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Brookhaven.BackgroundTransparency = 1.000
+Brookhaven.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Brookhaven.BorderSizePixel = 0
+Brookhaven.Position = UDim2.new(0.0178571437, 0, 0, 0)
+Brookhaven.Size = UDim2.new(0, 118, 0, 40)
+Brookhaven.Font = Enum.Font.ArialBold
+Brookhaven.Text = "Brookhaven"
+Brookhaven.TextColor3 = Color3.fromRGB(255, 255, 255)
+Brookhaven.TextSize = 19.000
 
 execute_3.Name = "execute"
-execute_3.Parent = Menu_2
-execute_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute_3.Parent = brookhaven
+execute_3.BackgroundColor3 = Color3.fromRGB(0, 11, 159)
 execute_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute_3.BorderSizePixel = 0
-execute_3.Position = UDim2.new(0.210780472, 0, 0.295540392, 0)
-execute_3.Size = UDim2.new(0, 107, 0, 50)
-execute_3.Font = Enum.Font.SourceSansBold
-execute_3.Text = "EXECUTE"
-execute_3.TextColor3 = Color3.fromRGB(255, 0, 25)
-execute_3.TextSize = 22.000
+execute_3.Position = UDim2.new(0.551020384, 0, 0.075000003, 0)
+execute_3.Size = UDim2.new(0, 163, 0, 34)
+execute_3.Font = Enum.Font.ArialBold
+execute_3.Text = "Execute"
+execute_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+execute_3.TextSize = 21.000
 
-biel.Name = "biel"
-biel.Parent = Menu_2
-biel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-biel.BackgroundTransparency = 1.000
-biel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-biel.BorderSizePixel = 0
-biel.Position = UDim2.new(0.810641646, 0, 0.896942914, 0)
-biel.Size = UDim2.new(0, 121, 0, 64)
-biel.Font = Enum.Font.Nunito
-biel.Text = "biel"
-biel.TextColor3 = Color3.fromRGB(255, 0, 4)
-biel.TextSize = 25.000
-
-INFINITEYELD.Name = "INFINITE YELD"
-INFINITEYELD.Parent = Menu_2
-INFINITEYELD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-INFINITEYELD.BackgroundTransparency = 1.000
-INFINITEYELD.BorderColor3 = Color3.fromRGB(0, 0, 0)
-INFINITEYELD.BorderSizePixel = 0
-INFINITEYELD.Position = UDim2.new(0.0203442872, 0, 0.88420409, 0)
-INFINITEYELD.Size = UDim2.new(0, 121, 0, 64)
-INFINITEYELD.Font = Enum.Font.Nunito
-INFINITEYELD.Text = "INFINITE YIELD"
-INFINITEYELD.TextColor3 = Color3.fromRGB(255, 0, 4)
-INFINITEYELD.TextSize = 25.000
-
-execute_4.Name = "execute"
-execute_4.Parent = Menu_2
-execute_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-execute_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-execute_4.BorderSizePixel = 0
-execute_4.Position = UDim2.new(0.245209262, 0, 0.895858884, 0)
-execute_4.Size = UDim2.new(0, 107, 0, 50)
-execute_4.Font = Enum.Font.SourceSansBold
-execute_4.Text = "EXECUTE"
-execute_4.TextColor3 = Color3.fromRGB(255, 0, 25)
-execute_4.TextSize = 22.000
+fisch.Name = "fisch"
+fisch.Parent = scripts
+fisch.BackgroundColor3 = Color3.fromRGB(0, 1, 76)
+fisch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fisch.BorderSizePixel = 0
+fisch.Position = UDim2.new(0.082802549, 0, 0.642791927, 0)
+fisch.Size = UDim2.new(0, 392, 0, 40)
 
 fisch_2.Name = "fisch"
-fisch_2.Parent = Menu_2
+fisch_2.Parent = fisch
 fisch_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 fisch_2.BackgroundTransparency = 1.000
 fisch_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fisch_2.BorderSizePixel = 0
-fisch_2.Position = UDim2.new(0.0203124993, 0, 0.378772348, 0)
-fisch_2.Size = UDim2.new(0, 121, 0, 64)
-fisch_2.Font = Enum.Font.Nunito
-fisch_2.Text = "BROOKHAVEN"
-fisch_2.TextColor3 = Color3.fromRGB(255, 0, 4)
-fisch_2.TextSize = 25.000
+fisch_2.Position = UDim2.new(-0.048469387, 0, 0, 0)
+fisch_2.Size = UDim2.new(0, 114, 0, 40)
+fisch_2.Font = Enum.Font.ArialBold
+fisch_2.Text = "Fisch"
+fisch_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+fisch_2.TextSize = 19.000
+
+execute_4.Name = "execute"
+execute_4.Parent = fisch
+execute_4.BackgroundColor3 = Color3.fromRGB(0, 11, 159)
+execute_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute_4.BorderSizePixel = 0
+execute_4.Position = UDim2.new(0.551020384, 0, 0.075000003, 0)
+execute_4.Size = UDim2.new(0, 163, 0, 34)
+execute_4.Font = Enum.Font.ArialBold
+execute_4.Text = "Execute"
+execute_4.TextColor3 = Color3.fromRGB(255, 0, 4)
+execute_4.TextSize = 21.000
+
+fisch_3.Name = "fisch"
+fisch_3.Parent = scripts
+fisch_3.BackgroundColor3 = Color3.fromRGB(0, 1, 76)
+fisch_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fisch_3.BorderSizePixel = 0
+fisch_3.Position = UDim2.new(0.082802549, 0, 0.798636079, 0)
+fisch_3.Size = UDim2.new(0, 392, 0, 40)
+
+infiniteyield.Name = "infinite yield"
+infiniteyield.Parent = fisch_3
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.BackgroundTransparency = 1.000
+infiniteyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(0.0204081628, 0, 0, 0)
+infiniteyield.Size = UDim2.new(0, 114, 0, 40)
+infiniteyield.Font = Enum.Font.ArialBold
+infiniteyield.Text = "Infinite Yield"
+infiniteyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.TextSize = 19.000
 
 execute_5.Name = "execute"
-execute_5.Parent = Menu_2
-execute_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute_5.Parent = fisch_3
+execute_5.BackgroundColor3 = Color3.fromRGB(0, 11, 159)
 execute_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 execute_5.BorderSizePixel = 0
-execute_5.Position = UDim2.new(0.245155528, 0, 0.399168909, 0)
-execute_5.Size = UDim2.new(0, 107, 0, 50)
-execute_5.Font = Enum.Font.SourceSansBold
-execute_5.Text = "EXECUTE"
-execute_5.TextColor3 = Color3.fromRGB(255, 0, 25)
-execute_5.TextSize = 22.000
+execute_5.Position = UDim2.new(0.551020384, 0, 0.075000003, 0)
+execute_5.Size = UDim2.new(0, 163, 0, 34)
+execute_5.Font = Enum.Font.ArialBold
+execute_5.Text = "Execute"
+execute_5.TextColor3 = Color3.fromRGB(255, 0, 4)
+execute_5.TextSize = 21.000
+
+xibiuhub.Name = "xibiu hub"
+xibiuhub.Parent = Frame
+xibiuhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xibiuhub.BackgroundTransparency = 1.000
+xibiuhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+xibiuhub.BorderSizePixel = 0
+xibiuhub.Position = UDim2.new(-0.02511774, 0, 0, 0)
+xibiuhub.Size = UDim2.new(0, 200, 0, 50)
+xibiuhub.Font = Enum.Font.Unknown
+xibiuhub.Text = "XIBIU HUB"
+xibiuhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+xibiuhub.TextSize = 33.000
+
+Profile.Name = "Profile"
+Profile.Parent = Frame
+Profile.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Profile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Profile.BorderSizePixel = 0
+Profile.Position = UDim2.new(0, 0, 0.735449731, 0)
+Profile.Size = UDim2.new(0, 100, 0, 100)
+Profile.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ProfileName.Name = "ProfileName"
+ProfileName.Parent = Frame
+ProfileName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProfileName.BackgroundTransparency = 1.000
+ProfileName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ProfileName.BorderSizePixel = 0
+ProfileName.Position = UDim2.new(0.0973312408, 0, 0.886243403, 0)
+ProfileName.Size = UDim2.new(0, 143, 0, 50)
+ProfileName.Font = Enum.Font.SourceSans
+ProfileName.Text = "Name"
+ProfileName.TextColor3 = Color3.fromRGB(255, 0, 4)
+ProfileName.TextSize = 26.000
+
+GameTime.Name = "Game Time"
+GameTime.Parent = Frame
+GameTime.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+GameTime.BackgroundTransparency = 1.000
+GameTime.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GameTime.BorderSizePixel = 0
+GameTime.Position = UDim2.new(0.211930931, 0, 0.886243403, 0)
+GameTime.Size = UDim2.new(0, 200, 0, 50)
+GameTime.Font = Enum.Font.SourceSans
+GameTime.Text = "game time"
+GameTime.TextColor3 = Color3.fromRGB(255, 0, 4)
+GameTime.TextSize = 22.000
+
+credits.Name = "credits"
+credits.Parent = Frame
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credits.BorderSizePixel = 0
+credits.Position = UDim2.new(0.77080065, 0, 0.886243403, 0)
+credits.Size = UDim2.new(0, 200, 0, 50)
+credits.Font = Enum.Font.SourceSans
+credits.Text = "by: biel"
+credits.TextColor3 = Color3.fromRGB(37, 59, 255)
+credits.TextSize = 26.000
 
 -- Scripts:
 
-local function JVTCB_fake_script() -- execute.execute 
+local function AGRZS_fake_script() -- execute.LocalScript 
 	local script = Instance.new('LocalScript', execute)
 
 	local button = script.Parent
@@ -193,25 +298,49 @@ local function JVTCB_fake_script() -- execute.execute
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/Loader.lua'))()
 	end)
 end
-coroutine.wrap(JVTCB_fake_script)()
-local function FXXLGJ_fake_script() -- Menu_2.hide/show 
-	local script = Instance.new('LocalScript', Menu_2)
+coroutine.wrap(AGRZS_fake_script)()
+local function GYWBUNW_fake_script() -- execute_2.LocalScript 
+	local script = Instance.new('LocalScript', execute_2)
 
-	local frame = script.Parent
+	local button = script.Parent
 	
-	local function toggleFrameVisibility()
-		frame.Visible = not frame.Visible
-	end
-	
-	game:GetService("UserInputService").InputBegan:Connect(function(input)
-		if input.KeyCode == Enum.KeyCode.Insert then
-			toggleFrameVisibility()
-		end
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
 	end)
 end
-coroutine.wrap(FXXLGJ_fake_script)()
-local function TNJP_fake_script() -- Menu_2.drag 
-	local script = Instance.new('LocalScript', Menu_2)
+coroutine.wrap(GYWBUNW_fake_script)()
+local function VTKC_fake_script() -- execute_3.LocalScript 
+	local script = Instance.new('LocalScript', execute_3)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+	end)
+end
+coroutine.wrap(VTKC_fake_script)()
+local function RDEDKSL_fake_script() -- execute_4.LocalScript 
+	local script = Instance.new('LocalScript', execute_4)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/fisch"))()
+	end)
+end
+coroutine.wrap(RDEDKSL_fake_script)()
+local function ZRUWRQA_fake_script() -- execute_5.LocalScript 
+	local script = Instance.new('LocalScript', execute_5)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(ZRUWRQA_fake_script)()
+local function SQOM_fake_script() -- Frame.drag 
+	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
 	local UserInputService = game:GetService("UserInputService")
@@ -251,46 +380,74 @@ local function TNJP_fake_script() -- Menu_2.drag
 			update(input)
 		end
 	end)
-	
 end
-coroutine.wrap(TNJP_fake_script)()
-local function KSQU_fake_script() -- execute_2.execute 
-	local script = Instance.new('LocalScript', execute_2)
+coroutine.wrap(SQOM_fake_script)()
+local function DEYXCZ_fake_script() -- Frame.hide/show 
+	local script = Instance.new('LocalScript', Frame)
 
-	local button = script.Parent
+	local frame = script.Parent
 	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	local function toggleFrameVisibility()
+		frame.Visible = not frame.Visible
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Insert then
+			toggleFrameVisibility()
+		end
 	end)
 end
-coroutine.wrap(KSQU_fake_script)()
-local function IZDX_fake_script() -- execute_3.execute 
-	local script = Instance.new('LocalScript', execute_3)
+coroutine.wrap(DEYXCZ_fake_script)()
+local function VFNP_fake_script() -- Profile.profile 
+	local script = Instance.new('LocalScript', Profile)
 
-	local button = script.Parent
+	local imageLabel = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local userId = player.UserId
 	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/fisch"))()
-	end)
+	-- Obtém a URL da imagem de perfil do jogador
+	local thumbnailUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=420&height=420&format=png"
+	
+	-- Define a imagem do perfil
+	imageLabel.Image = thumbnailUrl
 end
-coroutine.wrap(IZDX_fake_script)()
-local function NBCTN_fake_script() -- execute_4.execute 
-	local script = Instance.new('LocalScript', execute_4)
+coroutine.wrap(VFNP_fake_script)()
+local function HMGWVVM_fake_script() -- ProfileName.LocalScript 
+	local script = Instance.new('LocalScript', ProfileName)
 
-	local button = script.Parent
+	local textLabel = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
 	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
+	textLabel.Text = player.Name
 end
-coroutine.wrap(NBCTN_fake_script)()
-local function DBTEIJ_fake_script() -- execute_5.execute 
-	local script = Instance.new('LocalScript', execute_5)
+coroutine.wrap(HMGWVVM_fake_script)()
+local function HJGU_fake_script() -- GameTime.game time 
+	local script = Instance.new('LocalScript', GameTime)
 
-	local button = script.Parent
+	local textLabel = script.Parent
+	local startTime = tick()
 	
-	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
-	end)
+	
+	local function formatTime(seconds)
+		local hours = math.floor(seconds / 3600)
+		local minutes = math.floor((seconds % 3600) / 60)
+		local secs = math.floor(seconds % 60)
+		return string.format("%02d:%02d:%02d", hours, minutes, secs)
+	end
+	
+	
+	local function updateTimer()
+		while true do
+			local currentTime = tick()
+			local elapsedTime = currentTime - startTime
+			textLabel.Text = formatTime(elapsedTime)
+			wait(1) 
+		end
+	end
+	
+	
+	spawn(updateTimer)
 end
-coroutine.wrap(DBTEIJ_fake_script)()
+coroutine.wrap(HJGU_fake_script)()
