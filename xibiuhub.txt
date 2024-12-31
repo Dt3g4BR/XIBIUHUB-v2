@@ -283,7 +283,7 @@ credits.TextSize = 26.000
 
 -- Scripts:
 
-local function AIMXUI_fake_script() -- execute.LocalScript 
+local function UBCVND_fake_script() -- execute.LocalScript 
 	local script = Instance.new('LocalScript', execute)
 
 	local button = script.Parent
@@ -292,18 +292,20 @@ local function AIMXUI_fake_script() -- execute.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/Loader.lua'))()
 	end)
 end
-coroutine.wrap(AIMXUI_fake_script)()
-local function BUMYTTR_fake_script() -- execute_2.LocalScript 
+coroutine.wrap(UBCVND_fake_script)()
+local function TNVBRKD_fake_script() -- execute_2.LocalScript 
 	local script = Instance.new('LocalScript', execute_2)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+		getgenv().Team = "Marines"
+		getgenv().Hide_Menu = false
+		loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
 	end)
 end
-coroutine.wrap(BUMYTTR_fake_script)()
-local function CFVDA_fake_script() -- execute_3.LocalScript 
+coroutine.wrap(TNVBRKD_fake_script)()
+local function JTFJSRC_fake_script() -- execute_3.LocalScript 
 	local script = Instance.new('LocalScript', execute_3)
 
 	local button = script.Parent
@@ -312,8 +314,8 @@ local function CFVDA_fake_script() -- execute_3.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
 	end)
 end
-coroutine.wrap(CFVDA_fake_script)()
-local function RRUYR_fake_script() -- execute_4.LocalScript 
+coroutine.wrap(JTFJSRC_fake_script)()
+local function EFFIRL_fake_script() -- execute_4.LocalScript 
 	local script = Instance.new('LocalScript', execute_4)
 
 	local button = script.Parent
@@ -322,8 +324,8 @@ local function RRUYR_fake_script() -- execute_4.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/fisch"))()
 	end)
 end
-coroutine.wrap(RRUYR_fake_script)()
-local function QXYR_fake_script() -- execute_5.LocalScript 
+coroutine.wrap(EFFIRL_fake_script)()
+local function FAMVR_fake_script() -- execute_5.LocalScript 
 	local script = Instance.new('LocalScript', execute_5)
 
 	local button = script.Parent
@@ -332,8 +334,8 @@ local function QXYR_fake_script() -- execute_5.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(QXYR_fake_script)()
-local function YMUX_fake_script() -- Frame.drag 
+coroutine.wrap(FAMVR_fake_script)()
+local function EZDW_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -375,8 +377,8 @@ local function YMUX_fake_script() -- Frame.drag
 		end
 	end)
 end
-coroutine.wrap(YMUX_fake_script)()
-local function DRCDUVP_fake_script() -- Frame.hide/show 
+coroutine.wrap(EZDW_fake_script)()
+local function IFAXPP_fake_script() -- Frame.hide/show 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -391,8 +393,8 @@ local function DRCDUVP_fake_script() -- Frame.hide/show
 		end
 	end)
 end
-coroutine.wrap(DRCDUVP_fake_script)()
-local function XSHQESH_fake_script() -- Profile.profile 
+coroutine.wrap(IFAXPP_fake_script)()
+local function IZCMD_fake_script() -- Profile.profile 
 	local script = Instance.new('LocalScript', Profile)
 
 	local imageLabel = script.Parent
@@ -406,8 +408,8 @@ local function XSHQESH_fake_script() -- Profile.profile
 	-- Define a imagem do perfil
 	imageLabel.Image = thumbnailUrl
 end
-coroutine.wrap(XSHQESH_fake_script)()
-local function KFPZUEX_fake_script() -- ProfileName.LocalScript 
+coroutine.wrap(IZCMD_fake_script)()
+local function ZJLECT_fake_script() -- ProfileName.LocalScript 
 	local script = Instance.new('LocalScript', ProfileName)
 
 	local textLabel = script.Parent
@@ -416,8 +418,8 @@ local function KFPZUEX_fake_script() -- ProfileName.LocalScript
 	
 	textLabel.Text = player.Name
 end
-coroutine.wrap(KFPZUEX_fake_script)()
-local function MBEWIGB_fake_script() -- GameTime.game time 
+coroutine.wrap(ZJLECT_fake_script)()
+local function GNDVUKB_fake_script() -- GameTime.game time 
 	local script = Instance.new('LocalScript', GameTime)
 
 	local textLabel = script.Parent
@@ -444,4 +446,4 @@ local function MBEWIGB_fake_script() -- GameTime.game time
 	
 	spawn(updateTimer)
 end
-coroutine.wrap(MBEWIGB_fake_script)()
+coroutine.wrap(GNDVUKB_fake_script)()
