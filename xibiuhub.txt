@@ -1,0 +1,223 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Menu = Instance.new("ScreenGui")
+local Menu_2 = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local execute = Instance.new("TextButton")
+local skullhub = Instance.new("TextLabel")
+local skullhub_2 = Instance.new("TextLabel")
+local execute_2 = Instance.new("TextButton")
+local skullhub_3 = Instance.new("TextLabel")
+local execute_3 = Instance.new("TextButton")
+local skullhub_4 = Instance.new("TextLabel")
+
+--Properties:
+
+Menu.Name = "Menu"
+Menu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Menu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Menu_2.Name = "Menu"
+Menu_2.Parent = Menu
+Menu_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Menu_2.BackgroundTransparency = 0.100
+Menu_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu_2.BorderSizePixel = 0
+Menu_2.Position = UDim2.new(0.426344782, 0, 0.0778894499, 0)
+Menu_2.Size = UDim2.new(0, 639, 0, 628)
+
+title.Name = "title"
+title.Parent = Menu_2
+title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 639, 0, 50)
+title.Font = Enum.Font.Unknown
+title.Text = "XIBIUZINHO HUB"
+title.TextColor3 = Color3.fromRGB(255, 0, 4)
+title.TextSize = 33.000
+
+execute.Name = "execute"
+execute.Parent = Menu_2
+execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0.210780472, 0, 0.091718711, 0)
+execute.Size = UDim2.new(0, 107, 0, 50)
+execute.Font = Enum.Font.SourceSansBold
+execute.Text = "EXECUTE"
+execute.TextColor3 = Color3.fromRGB(255, 0, 25)
+execute.TextSize = 22.000
+
+skullhub.Name = "skullhub"
+skullhub.Parent = Menu_2
+skullhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skullhub.BackgroundTransparency = 1.000
+skullhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skullhub.BorderSizePixel = 0
+skullhub.Position = UDim2.new(0, 0, 0.0816562399, 0)
+skullhub.Size = UDim2.new(0, 121, 0, 64)
+skullhub.Font = Enum.Font.Nunito
+skullhub.Text = "SKULL HUB"
+skullhub.TextColor3 = Color3.fromRGB(255, 0, 4)
+skullhub.TextSize = 25.000
+
+skullhub_2.Name = "skullhub"
+skullhub_2.Parent = Menu_2
+skullhub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skullhub_2.BackgroundTransparency = 1.000
+skullhub_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skullhub_2.BorderSizePixel = 0
+skullhub_2.Position = UDim2.new(0, 0, 0.183567077, 0)
+skullhub_2.Size = UDim2.new(0, 121, 0, 64)
+skullhub_2.Font = Enum.Font.Nunito
+skullhub_2.Text = "BLOX FRUITS"
+skullhub_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+skullhub_2.TextSize = 25.000
+
+execute_2.Name = "execute"
+execute_2.Parent = Menu_2
+execute_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute_2.BorderSizePixel = 0
+execute_2.Position = UDim2.new(0.210780472, 0, 0.193629533, 0)
+execute_2.Size = UDim2.new(0, 107, 0, 50)
+execute_2.Font = Enum.Font.SourceSansBold
+execute_2.Text = "EXECUTE"
+execute_2.TextColor3 = Color3.fromRGB(255, 0, 25)
+execute_2.TextSize = 22.000
+
+skullhub_3.Name = "skullhub"
+skullhub_3.Parent = Menu_2
+skullhub_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skullhub_3.BackgroundTransparency = 1.000
+skullhub_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skullhub_3.BorderSizePixel = 0
+skullhub_3.Position = UDim2.new(0, 0, 0.285477906, 0)
+skullhub_3.Size = UDim2.new(0, 121, 0, 64)
+skullhub_3.Font = Enum.Font.Nunito
+skullhub_3.Text = "FISCH"
+skullhub_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+skullhub_3.TextSize = 25.000
+
+execute_3.Name = "execute"
+execute_3.Parent = Menu_2
+execute_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+execute_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute_3.BorderSizePixel = 0
+execute_3.Position = UDim2.new(0.210780472, 0, 0.295540392, 0)
+execute_3.Size = UDim2.new(0, 107, 0, 50)
+execute_3.Font = Enum.Font.SourceSansBold
+execute_3.Text = "EXECUTE"
+execute_3.TextColor3 = Color3.fromRGB(255, 0, 25)
+execute_3.TextSize = 22.000
+
+skullhub_4.Name = "skullhub"
+skullhub_4.Parent = Menu_2
+skullhub_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skullhub_4.BackgroundTransparency = 1.000
+skullhub_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skullhub_4.BorderSizePixel = 0
+skullhub_4.Position = UDim2.new(0.810641646, 0, 0.896942914, 0)
+skullhub_4.Size = UDim2.new(0, 121, 0, 64)
+skullhub_4.Font = Enum.Font.Nunito
+skullhub_4.Text = "biel"
+skullhub_4.TextColor3 = Color3.fromRGB(255, 0, 4)
+skullhub_4.TextSize = 25.000
+
+-- Scripts:
+
+local function DOTNL_fake_script() -- execute.execute 
+	local script = Instance.new('LocalScript', execute)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/Loader.lua'))()
+	end)
+end
+coroutine.wrap(DOTNL_fake_script)()
+local function ONHTZP_fake_script() -- Menu_2.hide/show 
+	local script = Instance.new('LocalScript', Menu_2)
+
+	local frame = script.Parent
+	
+	local function toggleFrameVisibility()
+		frame.Visible = not frame.Visible
+	end
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.U then
+			toggleFrameVisibility()
+		end
+	end)
+	
+end
+coroutine.wrap(ONHTZP_fake_script)()
+local function XKCB_fake_script() -- Menu_2.drag 
+	local script = Instance.new('LocalScript', Menu_2)
+
+	local frame = script.Parent
+	local UserInputService = game:GetService("UserInputService")
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and input == dragInput then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(XKCB_fake_script)()
+local function HOMWWI_fake_script() -- execute_2.execute 
+	local script = Instance.new('LocalScript', execute_2)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	end)
+end
+coroutine.wrap(HOMWWI_fake_script)()
+local function VYPMDX_fake_script() -- execute_3.execute 
+	local script = Instance.new('LocalScript', execute_3)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/fisch"))()
+	end)
+end
+coroutine.wrap(VYPMDX_fake_script)()
