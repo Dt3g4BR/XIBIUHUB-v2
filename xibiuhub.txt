@@ -52,13 +52,45 @@ Tabs.Credits:AddButton({ Title = "Credits", Callback = function()
 Fluent:Notify({ Title = "Credits", Content = "biel" })
 end })
 
--- All Star
+-- Admin Panel
+local adm = game:GetService("Players").LocalPlayer.PlayerGui.ModMenu
 Tabs.AllStar:AddParagraph({ Title = "All Star Tower Defense", Content = "All star cheats." })
+local Toggle = Tabs.AllStar:AddToggle("MyToggle", 
+{
+    Title = "Admin Panel", 
+    Description = "Shows Adm Panel",
+    Default = false, -- esse "," e preciso coloque em qualquer situação 
+    Callback = function(state)
+	if state then
+	    adm.Enabled=true
+	else
+	    adm.Enabled=false
+        end
+    end 
+})
+-- Hud
+local hud = game:GetService("Players").LocalPlayer.PlayerGui.HUD
+local Toggle = Tabs.AllStar:AddToggle("MyToggle", 
+{
+    Title = "Hide Hud", 
+    Description = "Shows/Hide Hud",
+    Default = false, -- esse "," e preciso coloque em qualquer situação 
+    Callback = function(state)
+	if state then
+	    hud.Enabled=false
+	else
+	    hud.Enabled=true
+        end
+    end 
+})
+
+-- All Star
 Tabs.AllStar:AddButton({ Title = "Add Money", Callback = function()
 local money = game:GetService("Players").LocalPlayer.Money
 money.Value=999999999999
 Fluent:Notify({ Title = "All Star", Content = "Infinite Money Added" })
 end })
+
 -- Kill
     local Input = Tabs.AllStar:AddInput("Input", {
         Title = "Kills",
@@ -83,7 +115,5 @@ end })
 			damage.Value=Value
         end
     })
-
-
 Window:SelectTab(1)
 Fluent:Notify({ Title = "Xibiu Hub", Content = "The script has been loaded." })
