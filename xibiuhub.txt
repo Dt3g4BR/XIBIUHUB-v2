@@ -9,6 +9,7 @@ local Window = Fluent:CreateWindow({
 
 local Tabs = {
     Main = Window:AddTab({ Title = "Script Launcher", Icon = "key" }),
+	AllStar = Window:AddTab({ Title = "All Star (Troll)", Icon = "star" }),
     Credits = Window:AddTab({ Title = "Credits", Icon = "book" })
 }
 
@@ -50,6 +51,39 @@ Tabs.Credits:AddParagraph({ Title = "Credits", Content = "Creator of script" })
 Tabs.Credits:AddButton({ Title = "Credits", Callback = function()
 Fluent:Notify({ Title = "Credits", Content = "biel" })
 end })
+
+-- All Star
+Tabs.AllStar:AddParagraph({ Title = "All Star Tower Defense", Content = "All star cheats." })
+Tabs.AllStar:AddButton({ Title = "Add Money", Callback = function()
+local money = game:GetService("Players").LocalPlayer.Money
+money.Value=999999999999
+Fluent:Notify({ Title = "All Star", Content = "Infinite Money Added" })
+end })
+-- Kill
+    local Input = Tabs.AllStar:AddInput("Input", {
+        Title = "Kills",
+        Default = "",
+        Placeholder = "Insert Kills Amount",
+        Numeric = true, -- Only allows numbers
+        Finished = true, -- Only calls callback when you press enter
+        Callback = function(Value)
+            local kill = game:GetService("Players").LocalPlayer.leaderstats.Kills
+			kill.Value=Value
+        end
+    })
+-- Damage
+    local Input = Tabs.AllStar:AddInput("Input", {
+        Title = "Damage",
+        Default = "",
+        Placeholder = "Insert Damage Amount",
+        Numeric = true, -- Only allows numbers
+        Finished = true, -- Only calls callback when you press enter
+        Callback = function(Value)
+            local damage = game:GetService("Players").LocalPlayer.leaderstats.Damage
+			damage.Value=Value
+        end
+    })
+
 
 Window:SelectTab(1)
 Fluent:Notify({ Title = "Xibiu Hub", Content = "The script has been loaded." })
